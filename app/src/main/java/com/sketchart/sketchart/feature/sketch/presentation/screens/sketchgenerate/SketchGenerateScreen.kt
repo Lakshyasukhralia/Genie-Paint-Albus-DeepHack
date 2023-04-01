@@ -104,10 +104,10 @@ fun SketchGenerateScreen(
         if (state.isLoading) {
             CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
             Text(
-                text = "Generating your sketch...",
+                text = "Genie is working it's magic...",
                 textAlign = TextAlign.Center,
                 fontWeight = FontWeight.Normal,
-                fontSize = 32.sp,
+                fontSize = 24.sp,
                 modifier = Modifier
                     .fillMaxWidth()
                     .align(Alignment.Center),
